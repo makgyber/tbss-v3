@@ -1,0 +1,1 @@
+<img src="{{ asset('/storage/images/tbss_logo_white.png') }}" alt="Logo" class="h-10">
