@@ -59,6 +59,7 @@ class ProspectiveLeadsFunnel extends ApexChartWidget
                 'bar' => [
                     'borderRadius' => 3,
                     'horizontal' => true,
+                    'isFunnel' => true
                 ],
             ],
         ];
