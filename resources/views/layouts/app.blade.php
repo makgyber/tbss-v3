@@ -15,7 +15,7 @@
             display: none !important;
         }
     </style>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css','resources/css/filament-fullcalendar.css', 'resources/css/apexcharts.css', 'resources/js/app.js', 'resources/js/filament-fullcalendar.js', 'resources/js/apexcharts.min.js'])
     @filamentStyles
     @filamentScripts
     @stack('scripts')

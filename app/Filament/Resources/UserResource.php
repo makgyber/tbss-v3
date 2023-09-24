@@ -20,7 +20,7 @@ use Filament\Tables\Columns\ToggleColumn;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Facades\Hash;
-use STS\FilamentImpersonate\Impersonate;
+use STS\FilamentImpersonate\Tables\Actions\Impersonate;
 
 class UserResource extends Resource
 {
@@ -60,7 +60,7 @@ class UserResource extends Resource
 
             ])
             ->actions([
-                Impersonate::make('impersonate'),
+                Impersonate::make('impersonate')->redirectTo(route('filament.admin.pages.dashboard')),
             ])
             ->filters([
                 Tables\Filters\Filter::make('verified')

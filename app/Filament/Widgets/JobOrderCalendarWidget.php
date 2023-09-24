@@ -5,10 +5,9 @@ namespace App\Filament\Widgets;
 use App\Filament\Resources\JobOrderResource;
 use App\Filament\Resources\ScheduleResource;
 use App\Models\Schedule;
-use Filament\Widgets\Widget;
-use App\Widgets\FullCalendarWidget;
+use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget as WidgetsFullCalendarWidget;
 
-class JobOrderCalendarWidget extends FullCalendarWidget
+class JobOrderCalendarWidget extends WidgetsFullCalendarWidget
 {
 
 

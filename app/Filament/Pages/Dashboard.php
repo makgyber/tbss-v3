@@ -21,16 +21,16 @@ class Dashboard extends BasePage
     public function mount(): void
     {
         if (auth()->user()->hasRole('technician')) {
-            redirect(route('filament.pages.command-center'));
+            redirect(route('filament.admin.pages.command-center'));
         };
     }
 
     public function getWidgets(): array
     {
         return [
-            // LeadsBySourceChart::class,
-            // LeadsByServiceTypeChart::class,
-            LeadsChart::class
+            LeadsBySourceChart::class,
+            LeadsByServiceTypeChart::class,
+            // LeadsChart::class
             // ExpiringContracts::class,
             // PendingContracts::class,
         ];

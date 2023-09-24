@@ -4,7 +4,7 @@ namespace App\Filament\Resources\ScheduleResource\Widgets;
 
 use App\Filament\Resources\ScheduleResource;
 use App\Models\Schedule;
-use App\Widgets\FullCalendarWidget;
+use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 
 class VisitCalendar extends FullCalendarWidget
 {

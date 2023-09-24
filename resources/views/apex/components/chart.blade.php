@@ -32,7 +32,7 @@
         @if ($loadingIndicator)
         {!! $loadingIndicator !!}
         @else
-        <x-filament-support::loading-indicator x-cloak wire:loading.delay class="w-7 h-7" />
+        <x-filament::loading-indicator x-cloak wire:loading.delay class="w-7 h-7" />
         @endif
     </div>
     @endif

@@ -73,6 +73,7 @@ class ServiceTrackingMap extends MapWidget
                 ];
             }
         }
+
         return $data;
     }
 

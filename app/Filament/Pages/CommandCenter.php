@@ -27,7 +27,7 @@ class CommandCenter extends Page
     {
         // $this->form->fill();
         if (auth()->user()->hasRole('technician')) {
-            redirect(route('filament.pages.service-map'));
+            redirect(route('filament.admin.pages.service-map'));
         }
     }
 

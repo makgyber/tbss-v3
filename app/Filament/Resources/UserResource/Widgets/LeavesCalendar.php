@@ -4,7 +4,7 @@ namespace App\Filament\Resources\UserResource\Widgets;
 
 use App\Filament\Resources\UserResource;
 use App\Models\Leave;
-use App\Widgets\FullCalendarWidget;
+use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 
 class LeavesCalendar extends FullCalendarWidget
 {
